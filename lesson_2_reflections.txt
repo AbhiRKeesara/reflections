@@ -1,0 +1,4 @@
+Q1.What happens when you initialize a repository? Why do you need to do it?
+A. when I initialize a repository it makes the files/ directory a git repository. We need to
+	do that to make it as a repository in turn that makes tracking of files/folders by git.
+
