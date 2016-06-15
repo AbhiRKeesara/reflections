@@ -5,3 +5,12 @@ A. when I initialize a repository it makes the files/ directory a git repository
 Q2.How is the staging area different from the working directory and the repository? What value do you 		think it offers?
 A. staging area is the level at which we keep our files that are about to committed to the repository.
 	Since we commit the files once per logical change, we keep that files in the staging area.
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+A. when you add files to the staging area you can check about the commit of the file using
+	git diff to check between working directory and staging area git diff --staged to check between staging area and recent commit in the repository.
+
+Q4. What are some situations when branches would be helpful in keeping your history organized? How 		would branches help?
+A. When I would like to work on new features I would create a new branch because experimenting on the
+	master branch would make things complex when some thing goes wrong.
+			When every thing works out I will merge the branch.
