@@ -23,3 +23,7 @@ Q6.What is the result of merging two branches together? Why do we represent it i
 	we do?
 A. When we merge two branches the commits from the two branches will be present on one branch. We
 	represent it in the diagram so that we can know which commits a particular branch contains.
+
+Q7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. git automatic merging works when there are no conflicts in the files. If there are any conflicts in the files we need to resolve, commit them, merge them.
