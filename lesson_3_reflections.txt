@@ -5,3 +5,10 @@ Q2.Why might you want to always pull changes manually rather than having Git aut
 A. I am working on a new feature for a app , If git automatically makes a pull request then before
 	I complete and test my new feature my repository will have multiple commits in the repository which are incomplete that is unacceptable. So when I am done with my work I will manually do the
 	pull request so that every file is up-to-data with my remote repository.
+
+Q3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A. fork- copying the entire repository in to your github profile. Used when I don't have permission
+	to change the original repository.
+	clone- copying the entire repository on to your personal computer. Used to work locally and push changes to your personal repository.
+	branch- used when working on a experimental feature or work. You get the entire work from master in your seperate branch and start working on it.
