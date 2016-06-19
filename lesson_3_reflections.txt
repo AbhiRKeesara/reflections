@@ -12,3 +12,11 @@ A. fork- copying the entire repository in to your github profile. Used when I do
 	to change the original repository.
 	clone- copying the entire repository on to your personal computer. Used to work locally and push changes to your personal repository.
 	branch- used when working on a experimental feature or work. You get the entire work from master in your seperate branch and start working on it.
+
+Q4.What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A.  If I am about to go without Internet access for a while, for example to work
+    on a plane, I can update my local copy before I leave.  I can do this even
+    if I'm not ready to merge those changes into my own branches yet.  Then if I
+    want, I can perform the merge while offline, or I need to know what the
+    remote version is at some point, I have an easy way to access it.
